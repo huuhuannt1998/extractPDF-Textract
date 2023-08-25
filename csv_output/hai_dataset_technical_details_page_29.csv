@@ -1,0 +1,13 @@
+,,Target ,,,HAI HAIEnd ,
+Scenario ,Controller ,Function ,Attack Appeared Point ,Description ,23.05 ,
+AE01 ,P1-PC ,1001.09 ,1001.09-OUT ,Targets the algorithm, one of the artificial I/O functions. Modulate internal point(1001.09.R1) from 40(normal initial value) to 12. When the process changed from manual mode to auto mode, the modulated initialization value is sent to PCV01. ,,
+AE02 ,P1-PC ,1001.21 ,DM-PCV01-D ,Targets the algorithm, one of the arithmetic functions; It scales by converting the input value into a one-to-one linear function. By modulating internal point(1001.21.S5) from 100(normal initial value) to "90," the maximum of PCV01 control command is modulated to 90 and decreases linearly. ,,
+AE03 ,P1-LC ,1002.14 ,1002.14-OUT ,Targets the algorithm, one of the artificial I/O functions. Modulate internal point(1002.14.R1) from 30(normal initial value) to 0. When the process changed from manual mode to auto mode, the modulated initialization value is sent to LCV01. ,,
+AE04 ,P1-LC ,1002.31 ,1002.31-OUT ,Targets the algorithm, one of an arithmetic functions; By modulating internal point(1002.31.S5) from 97(normal initial value) to "87," the maximum of LCV01 control command is modulated to 87 and decreases linearly. ,,
+AE05 ,P1-TC ,1003.05 ,1003.05-OUT ,Targets the algorithm, one of an arithmetic functions; By modulating internal point(1003.05.S5) from 100(normal initial value) to "90," the maximum of PV(1003.26) is modulated to 90 and decreases linearly. ,,
+AE06 ,P1-TC ,1003.08 ,DM-FT02Z ,Targets the algorithm, one of an arithmetic functions; By modulating internal point(1003.08.T6) from 3190(normal initial value) to "3000," the maximum of DM-FT02Z(flow rate of boiler hot water) is modulated to 3000 and decreases linearly. ,,
+AE07 ,P1-CC ,1020.15 ,1020.15-OUT ,Targets the algorithm, one of an arithmetic functions; By modulating internal point(1020.15.S4) from 0(normal initial value) to "15," the minimum of PP04 control command is modulated to 15 and increases linearly. ,,
+AE08 ,P1-HC ,1004.21 ,1004.21-OUT ,Targets the algorithm, one of a monitor functions; By decreasing internal point(1004.21.R1) from 33(normal initial value) to 10 and increasing it to "40," the Low threshold of heater is modulated. ,,
+,,,,TOTAL ,8 ,
+
+

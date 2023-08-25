@@ -1,0 +1,18 @@
+Scenario ,,Target ,,Description ,,HAI ,,,
+,Controller ,Variable ,Point ,,20.07 ,21.03 ,22.04 ,23.05 ,
+AP01 ,P1-PC ,SP1 ,P1_B2016 ,Decrease or increase SP value of P1-PC. Restore as a form of a trapezoidal profile while hiding SP changes in HMI. ,X ,X ,X ,X ,
+AP02 ,P1-PC ,SP1 ,P1_B2016 ,Decrease or increase SP value of P1-PC. Restore as a form of a trapezoidal profile while hiding SP changes in HMI. ,X ,X ,X ,X ,
+,,PV1 ,P1_PIT01 ,Attempt to maintain previous sensor value. ,,,,,
+,,SP1 ,P1_B2016 ,Decrease or increase SP value of P1-PC. Restore as a form of a trapezoidal profile while hiding SP changes in HMI. ,,,,,
+AP03 ,P1-PC ,PV1 ,P1_PIT01 ,Attempt to maintain previous sensor value. ,,,X ,X ,
+,,PV2 ,P1_FIT01 ,Attempt to maintain previous sensor value ,,,,,
+AP04 ,P1-PC ,CV1 ,P1_PCV01D ,Decrease or increase CV value of P1-PC. Restore to normal. ,X ,X ,X ,X ,
+AP05 ,P1-PC ,CV1 ,P1_PCV01D ,Decrease or increase CV value of P1-PC. Restore to normal. ,X ,X ,X ,,
+,,PV1 ,P1_PIT01 ,Attempt to maintain previous sensor value. ,,,,X ,
+AP06 ,P1-PC ,SP1-ST ,P1_B2016 ,Short-term (ST) attack that decrease or increase SP value of P1-PC for a few seconds and restores to normal. Repeat several times while hiding SP changes in HMI. ,,X ,,,
+AP07 ,P1-PC ,CV1-ST ,P1_PCV01D ,Short-term (ST) attack that decrease or increase CV value of P1-PC for a few seconds and restores to normal. Repeat several times while hiding SP changes in HMI. ,,,X ,X ,
+AP08 ,P1-FC ,SP1 ,P1_B3005 ,Decrease or increase SP value of P1-FC. Restore as a form of a trapezoidal profile while hiding SP changes in HMI ,X ,X ,X ,X ,
+AP09 ,P1-FC ,SP1 ,P1_B3005 ,Decrease or increase SP value of P1-FC. Restore as a form of a trapezoidal profile while hiding SP changes in HMI ,X ,X ,X ,X ,
+,,PV1 ,P1_FT03 ,Attempt to maintain previous sensor value. ,,,,,
+
+

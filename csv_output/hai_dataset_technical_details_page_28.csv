@@ -1,0 +1,16 @@
+Scenario ,,Target ,,Description ,,HAI ,,,
+,Controller ,Variable ,Point ,,20.07 ,21.03 ,22.04 ,23.05 ,
+AP41 ,P1-FC ,SP1-LT ,P1_B3005 ,Long-term (LT) attack that decrease or increase SP value of P1-FC continuously for more than 10 minutes and restores to normal. ,,,,X ,
+,P1-LC ,CV1 ,P1_LCV01D ,Decrease or increase CV value of P1-LC. Restore to normal. ,,,,,
+AP42 ,,PV1 ,P1_LIT01 ,Attempt to repeat previous sensor value. ,,,,X ,
+,,PV2 ,P1_FT03 ,Attempt to maintain previous sensor value. ,,,,,
+AP43 ,P1-LC ,CV1-LT ,P1_LCV01D ,Long-term (LT) attack that decrease or increase CV value of P1-LC continuously for more than 10 minutes and restores to normal. ,,,,X ,
+AP44 ,P1-LC ,CV1-LT ,P1_LCV01D ,Decrease or increase CV value of P1-LC. Restore to normal. ,,,,X ,
+,,PV1-LT ,P1_LIT01 ,Attempt to repeat previous sensor value. ,,,,,
+AP45 ,P1-TC ,SP1 ,P1_B4002 ,Decrease or increase SP value of P1-TC. Restore as a form of a trapezoidal profile while hiding SP changes in HMI. ,,,,X ,
+AP46 ,P1-CC ,CV1 ,P1_PP04 ,Decrease or increase CV value of P1-CC. Restore to normal. ,,,,X ,
+,,PV1 ,P1_TIT03 ,Attempt to repeat previous sensor value. ,,,,,
+AP47 ,P2-TC ,SP2-LT ,P2_VTR02 ,Long-term (LT) attack that decrease or increase SP value of P2-TC continuously for more than 10 minutes and restores to normal. ,,,,X ,
+,,,TOTAL ,,14 ,25 ,37 ,37 ,
+
+
